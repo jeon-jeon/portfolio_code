@@ -23,7 +23,7 @@ const About = () => {
             height: "200px",
             objectFit: "contain",
           }}
-          src="/image/profile.jpg"
+          src="https://jeon-jeon.github.io/portfolio/image/profile.jpg"
           alt=""
         />
 
@@ -37,12 +37,7 @@ const About = () => {
           <InfoText info={"전지연"}></InfoText>
           <InfoText info={"1989.10.19"}></InfoText>
           <InfoText info={"인천시 부평구"}></InfoText>
-          <a
-            href="mailto:jystylejy@gmail.com"
-            style={{ textDecorationLine: "none" }}
-          >
-            <InfoText info={"jystylejy@gmail.com"}></InfoText>
-          </a>
+          <InfoText info={"jystylejy@gmail.com"}></InfoText>
         </div>
       </div>
       <p

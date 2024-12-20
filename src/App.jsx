@@ -35,7 +35,8 @@ function App() {
       .to(".pj_card2 div", { rotateY: 0 })
       .to(".pj_card3 div", { rotateY: 0 })
       .to(".pj_card4 div", { rotateY: 0 })
-      .to(".pj_card5 div", { rotateY: 0 });
+      .to(".pj_card5 div", { rotateY: 0 })
+      .to(".pj_card6 div", { rotateY: 0 });
   }, []);
 
   return (
